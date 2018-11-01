@@ -2,7 +2,7 @@
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="50dp"
+    android:layout_height="40dp"
     >
 
     <LinearLayout
@@ -23,27 +23,27 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:src="@mipmap/homepage" />
+            android:src="@mipmap/homepage2" />
 
         <ImageView
             android:id="@+id/classification"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:src="@mipmap/feilei" />
+            android:src="@mipmap/listview2" />
 
         <ImageView
             android:id="@+id/order"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:src="@mipmap/dingdan" />
+            android:src="@mipmap/dingdan2" />
 
         <ImageView
             android:id="@+id/My"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:src="@mipmap/me" />
+            android:src="@mipmap/me2" />
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
